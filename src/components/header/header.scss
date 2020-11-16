@@ -1,0 +1,28 @@
+.header {
+  background: linear-gradient(#0099ff, #94ddffb9);
+  box-shadow: 0px 2px 10px rgb(168, 168, 168);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 0px 0px 15px 15px;
+
+  &__logo {
+    background-color: rgb(180, 227, 255);
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px rgb(184, 184, 184);
+    padding: 2px 10px 2px 10px;
+    margin: 2px;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: absolute;
+  }
+
+  &__title {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+  }
+}
